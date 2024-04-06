@@ -2,7 +2,7 @@
 # NOTE: When a player has a score either of these values, then chose a island generation type
 
 execute in minecraft:potato run forceload add 8 -1 -3 11 
-say loadtest
+
 # Initial Island genration
 scoreboard objectives add skyblock.generate_init_island dummy
 # NOTE: This is just inital code. I have no idea how this will effect mutiplayer.

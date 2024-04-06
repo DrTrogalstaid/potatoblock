@@ -1,6 +1,6 @@
 execute in minecraft:potato positioned 4 57 5 run place template potatoblock:potatoblock
 scoreboard players set $plaines skyblock.outer_island_checklist 1
-say test
+
 # No stealing items (if its a new world)
 execute as @a run clear @s
 execute positioned 6 64 6 run kill @e[type=minecraft:item,distance=..20]
